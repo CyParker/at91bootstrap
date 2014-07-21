@@ -44,7 +44,7 @@
 #include "arch/sama5_smc.h"
 #include "arch/at91_pio.h"
 #include "arch/at91_ddrsdrc.h"
-#include "sama5d3_xplained.h"
+#include "sama5d3_FSW.h"
 
 static void at91_dbgu_hw_init(void)
 {
@@ -323,7 +323,7 @@ void at91_spi0_hw_init(void)
 #ifdef CONFIG_SDCARD
 static void sdcard_set_of_name_board(char *of_name)
 {
-	strcat(of_name, "at91-sama5d3_xplained.dtb");
+	strcat(of_name, "at91-sama5d3_FSW.dtb");
 }
 
 void at91_mci0_hw_init(void)

@@ -1,5 +1,5 @@
-config CONFIG_SAMA5D3_XPLAINED
-	bool "sama5d3_xplained"
+config CONFIG_SAMA5D3_FSW
+	bool "sama5d3_FSW"
 	select SAMA5D3X
 	select CONFIG_DDRC
 	select ALLOW_NANDFLASH
@@ -15,4 +15,4 @@ config CONFIG_SAMA5D3_XPLAINED
 	select CPU_HAS_PMECC
 	select CONFIG_MMC_SUPPORT
 	help
-	    Use the SAMA5D3 Xplained development board
+	    Use the SAMA5D3 FSW board
