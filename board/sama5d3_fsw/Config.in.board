@@ -1,5 +1,5 @@
 config CONFIG_SAMA5D3_FSW
-	bool "sama5d3_FSW"
+	bool "sama5d3_fsw"
 	select SAMA5D3X
 	select CONFIG_DDRC
 	select ALLOW_NANDFLASH
