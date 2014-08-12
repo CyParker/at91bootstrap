@@ -77,7 +77,7 @@
 #endif
 
 #ifdef CONFIG_SAMA5D3_FSW
-#include "sama5d3_FSW.h"
+#include "sama5d3_fsw.h"
 #endif
 
 #endif /* #ifndef __BOARD_H__ */
